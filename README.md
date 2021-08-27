@@ -3,7 +3,7 @@
 # AP2 - Protótipo: Script de Detecção de Bordas
 
 ## O seu protótipo é descartável ou evolucionário? Justifique.
-Evolucionário. O protótipo se utiliza de apenas uma implementação de detecção de bordas. É possível implementar outras técnicas que enaltecem aspectos diferentes do algoritmo e servem para tipos de imagem diferentes, evoluiundo assim o projeto. Atualmente, ele serve como uma prova de conceito para clientes, ou seja, é um protótipo.
+Evolucionário. O protótipo se utiliza de apenas uma implementação de detecção de bordas. É possível implementar outras técnicas que enaltecem aspectos diferentes do algoritmo e servem para tipos de imagem diferentes, evoluindo assim o projeto. Atualmente, ele serve como uma prova de conceito para clientes, ou seja, é um protótipo.
 
 
 ## Quais as características da linguagem escolhida fazem ela apropriada para o desenvolvimento de um protótipo?
