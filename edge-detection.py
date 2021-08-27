@@ -37,11 +37,13 @@ original = cv2.imread('Ludwig.png')
 # Redimensionar
 resized = doResize(original)
 
+gray = convertToGrayScale(resized)
+
 # Borrar imagem
-blurred = applyBlur(resized)
+modified = applyBlur(gray)
 
 # Converter imagem para escala de cinza
-modified = convertToGrayScale(blurred)
+
 
 # Colocar informações da imagem em um vetor; dimensions[0] = height, dimensions[1] = width, dimensions[2] = channels
 dimensions = modified.shape
@@ -64,7 +66,8 @@ createEdgeDetection(modified, modifiedWithBorder, dimensions)
 
 # Mostrar imagens
 cv2.imshow('Original', resized)
-cv2.imshow('Detecção de Bordas', modified)
-
 cv2.waitKey(0)
+cv2.imshow('Deteccao de Bordas', modified)
+cv2.waitKey(0)
+
 cv2.destroyAllWindows()
